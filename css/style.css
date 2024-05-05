@@ -27,6 +27,12 @@ img {
     width: 100%;
 }
 
+.bg-cover{
+    background-position: center !important;
+    background-size: cover !important;
+    background-position: center !important;
+}
+
 /* navbar */
 .top-navbar {
     background-color: #ff4d29;
@@ -62,6 +68,11 @@ img {
     box-shadow: 0px 6px 30px rgba(0, 0, 0, .08);
 }
 
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link.active{
+    color: #ff4d29;
+}
+
 .navbar-brand{
     font-weight: 700;
     font-size: 26px;
@@ -89,4 +100,45 @@ img {
 .btn-brand:hover{
     background-color: transparent;
     color: #ff4d29;
+}
+
+/* slider */
+.slide1{
+    background: linear-gradient(rgba(9, 32, 50, 0.3), rgba(9, 32, 50, 0.4)), url('../img/bg_banner1.jpg');
+}
+
+.slide2{
+    background: linear-gradient(rgba(9, 32, 50, 0.3), rgba(9, 32, 50, 0.4)), url('../img/bg_banner2.jpg');
+}
+
+/* owl carousel */
+.owl-prev,
+.owl-next {
+    position: absolute;
+    top: 50%;
+    width: 60px !important;
+    height: 60px !important;
+    border-radius: 100% !important;
+    background-color: rgba(255, 255, 255, .2) !important;
+    color: #fff !important;
+    display: grid;
+    place-items: center;
+    font-weight: 700 !important;
+    margin-top: -30px !important;
+    font-size: 12px !important;
+    transition: all .3s ease;
+}
+
+.owl-prev{
+    left: 0;
+}
+
+.owl-next{
+    right: 0;
+}
+
+.owl-next:hover, 
+.owl-prev:hover{
+    background-color: #ff4d29 !important;
+    
 }
