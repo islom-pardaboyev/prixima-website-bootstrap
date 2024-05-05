@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Barlow', sans-serif;
+    line-height: 1.7;
+    color: #516171;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700 !important;
+    color: #092032;
+}
+
+a {
+    color: #092032;
+    text-decoration: none;
+    transition: all .4s ease;
+    font-weight: 500 !important;
+}
+
+img {
+    width: 100%;
+}
+
+/* navbar */
+.top-navbar {
+    background-color: #ff4d29;
+    padding: 5px 0;
+}
+
+.top-navbar p {
+    margin-bottom: 0;
+    display: inline-block;
+    margin-right: 16px;
+    color: #fff;
+}
+
+.social-links a {
+    width: 34px;
+    height: 34px;
+    background-color: rgba(255, 255, 255, .4);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 24px;
+    margin-right: 5px;
+    border-radius: 100%;
+}
+
+.social-links a:hover {
+    background-color: #fff;
+    color: #ff4d29;
+}
+
+.navbar{
+    box-shadow: 0px 6px 30px rgba(0, 0, 0, .08);
+}
+
+.navbar-brand{
+    font-weight: 700;
+    font-size: 26px;
+    color: #092032;   
+}
+
+.navbar-brand span{
+    color: #ff4d29;
+}
+
+/* btn */
+
+.btn{
+    padding: 9px 24px;
+}
+
+.btn-brand{
+    background-color: #ff4d29;
+    color: #fff;
+    font-weight: 500 !important;
+    margin-left: 10px;
+    border: 2px solid #ff4d29 !important;
+}
+
+.btn-brand:hover{
+    background-color: transparent;
+    color: #ff4d29;
+}
